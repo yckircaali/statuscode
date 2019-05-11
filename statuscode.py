@@ -1,7 +1,7 @@
 import requests
 
-x = input("Lutfen domain listesini giriniz : ")
-print('**********************************************')
+x = input("Lutfen domain listesinin bulundugu dosyayı giriniz : ")
+print('***************************************************************')
 with open(x,'r') as file:
     words = []
     for item in file:
@@ -25,6 +25,3 @@ for w in words:
         print('[  !  ]',url)
         with open('hata.txt','a') as file1:
             file1.write(url+'\n')
-
-
-
