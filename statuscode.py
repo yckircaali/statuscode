@@ -1,6 +1,6 @@
 import requests
 
-x = input("Lutfen domain listesinin bulundugu dosyayi giriniz : ")
+x = input("Please enter the file with the domain list: ")
 print('***************************************************************')
 with open(x,'r') as file:
     words = []
